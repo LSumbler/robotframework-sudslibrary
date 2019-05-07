@@ -238,7 +238,7 @@ def main(argv, version=DEFAULT_VERSION):
             from setuptools.command.easy_install import main
             main(argv)
         else:
-            print "Setuptools version",version,"or greater has been installed."
+            print '(Setuptools version %d or greater has been installed.' %(version))
             print '(Run "ez_setup.py -U setuptools" to reinstall or upgrade.)'
 
 def update_md5(filenames):
