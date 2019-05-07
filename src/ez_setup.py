@@ -239,7 +239,7 @@ def main(argv, version=DEFAULT_VERSION):
             main(argv)
         else:
             print ('Setuptools version %d or greater has been installed.' %(version))
-            print '(Run "ez_setup.py -U setuptools" to reinstall or upgrade.)'
+            print ('Run "ez_setup.py -U setuptools" to reinstall or upgrade.')
 
 def update_md5(filenames):
     """Update our built-in md5 registry"""
